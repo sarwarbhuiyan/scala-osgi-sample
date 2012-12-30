@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component name="com.domain.osgi.scala.internal.HelloScalaServiceImpl">
+        <implementation class="com.domain.osgi.scala.internal.HelloScalaServiceImpl"/>
+        <service servicefactory="false">
+            <provide interface="com.domain.osgi.scala.HelloScalaService"/>
+            <provide interface="scala.ScalaObject"/>
+        </service>
+        <property name="service.pid" value="com.domain.osgi.scala.internal.HelloScalaServiceImpl"/>
+    </scr:component>
+</components>

@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Export-Package: com.domain.osgi.scala;uses:="scala.reflect";version="1
+ .0.0.SNAPSHOT"
+Service-Component: OSGI-INF/com.domain.osgi.scala.internal.HelloScalaS
+ erviceImpl.xml
+Private-Package: com.domain.osgi.scala.internal
+Ignore-Package: com.domain.osgi.scala.internal,org.apache.felix.scr.an
+ notations
+Built-By: sarwar
+Tool: Bnd-0.0.255
+Bundle-Name: examples.hello-scala [com.domain.osgi.scala]
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.6.0_37
+Bundle-Version: 1.0.0.SNAPSHOT
+Bnd-LastModified: 1356826595783
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.domain.osgi.scala.internal.HelloScalaActivator
+Import-Package: com.domain.osgi.scala;version="1.0.0.SNAPSHOT",org.osg
+ i.framework,scala;version="2.7",scala.reflect;version="2.7"
+Bundle-SymbolicName: examples.hello-scala
+
