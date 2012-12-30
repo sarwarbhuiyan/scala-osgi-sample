@@ -12,7 +12,7 @@ Bundle-Name: examples.hello-scala [com.domain.osgi.scala]
 Created-By: Apache Maven Bundle Plugin
 Build-Jdk: 1.6.0_37
 Bundle-Version: 1.0.0.SNAPSHOT
-Bnd-LastModified: 1356826595783
+Bnd-LastModified: 1356837931603
 Bundle-ManifestVersion: 2
 Bundle-Activator: com.domain.osgi.scala.internal.HelloScalaActivator
 Import-Package: com.domain.osgi.scala;version="1.0.0.SNAPSHOT",org.osg

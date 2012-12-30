@@ -7,7 +7,8 @@ import org.apache.felix.scr.annotations._
 @Service
 @Component
 class HelloScalaServiceImpl extends HelloScalaService {
-   def hello() : String = {
+  
+   def hello() = {
 	Console.println("Hello, from scala")
 	"Hello, from Scala"
    }
